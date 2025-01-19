@@ -8,7 +8,7 @@ pub struct Distro {
 }
 
 pub fn get_distros() -> Vec<Distro> {
-    vec![/* 
+    vec![ 
         Distro {
             name: "Ubuntu",
             description: "Ubuntu is a popular Linux distribution based on Debian. It used to be really nice, but then they added snaps and a lot of bloat. Still a solid choice",
@@ -86,7 +86,7 @@ pub fn get_distros() -> Vec<Distro> {
             description: "FreeBSD is a Unix-like operating system known for its performance and advanced networking capabilities. It's great for servers, desktops, and embedded systems.",
             color: Color::White,
             is_bold: false,
-        },*/
+        },
         Distro {
             name: "Kali Linux",
             description: "The OS for Hackers and Script Kiddies. Based on Debian and equipped with a wide range of Hacking and pentesting Tools, it is the perfect choice for Hackers and everybody who wants to become one.",
