@@ -19,7 +19,7 @@ To build from source, you need to have Rust and Cargo installed on your system. 
 Clone the repository and build the project:
 
 ```sh
-git clone https://github.com/yourusername/distrohoop.git
+git clone https://github.com/br0sinski/distrohoop.git
 cd distrohoop
 cargo build --release
 ```
