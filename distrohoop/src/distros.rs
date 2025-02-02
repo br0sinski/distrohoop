@@ -72,7 +72,7 @@ pub fn get_distros() -> Vec<Distro> {
         Distro {
             name: "Linux From Scratch",
             description: "Linux From Scratch huh? So you have chosen death. Just kidding, this one is really cool if you want to learn how Linux works from the ground up",
-            color: Color::BrightRed,
+            color: Color::White,
             is_bold: false,
         },
         Distro {
@@ -84,7 +84,7 @@ pub fn get_distros() -> Vec<Distro> {
         Distro {
             name: "FreeBSD",
             description: "FreeBSD is a Unix-like operating system known for its performance and advanced networking capabilities. It's great for servers, desktops, and embedded systems.",
-            color: Color::White,
+            color: Color::BrightRed,
             is_bold: false,
         },
         Distro {
@@ -111,5 +111,17 @@ pub fn get_distros() -> Vec<Distro> {
             color: Color::BrightYellow,
             is_bold: false,
         },
+        Distro {
+            name: "Alpine Linux",
+            description: "Alpine is a lightweight distribution focused on security. It uses busybox instead of GNU coreutils, and musl instead of glibc.",
+            color: Color::BrightBlue,
+            is_bold: false,
+        },
+        Distro {
+            name: "Bedrock Linux",
+            description: "Bedrock allows you to seamlessly mix components from other, incompatible with each other distributions.",
+            color: Color::BrightBlack,
+            is_bold: true,
+        }
     ]
 }
