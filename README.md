@@ -8,18 +8,6 @@ distroHoop is a CLI tool written in Rust that helps you determine your next Linu
 
 ## 🛠️ Installation
 
-### NixOS
-Add to your *flake.nix*:
-```nix
-inputs = {
-    distrohoop.url = "github:br0sinski/distrohoop";
-}
-```
-
-Then, you can use in `home.packages` or `environment.systemPackages`:
-```nix
-inputs.distrohoop.packages.${pkgs.system}.default
-```
 
 ### Download a Binary
 
@@ -61,6 +49,19 @@ or
 git clone https://aur.archlinux.org/distrohoop.git
 cd distrohoop
 makepkg -si
+```
+
+### NixOS
+Add to your *flake.nix*:
+```nix
+inputs = {
+    distrohoop.url = "github:br0sinski/distrohoop";
+}
+```
+
+Then, you can use in `home.packages` or `environment.systemPackages`:
+```nix
+inputs.distrohoop.packages.${pkgs.system}.default
 ```
 
 ## 🚀 Usage
